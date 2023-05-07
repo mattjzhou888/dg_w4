@@ -18,4 +18,4 @@ def predict():
 
     return render_template("index.html", prediction_text="Predicted Salary: {}".format(out))
 
-app.run(port=5000)
+app.run(host='0.0.0.0', port=50000)
